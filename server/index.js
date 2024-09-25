@@ -28,7 +28,7 @@ cloudinary_connect()
 
 
 app.get("/",(req,res)=>{
-    res.send("demo api")
+    res.send("api checking....")
 })
 
 
