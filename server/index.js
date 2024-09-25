@@ -22,7 +22,7 @@ app.use("/api/user",userRouter)
 app.use("/api/product",productRouter)
 app.use("/api/cart",cartRouter)
 
-//Db connection
+//Db connections
 dbConnection()
 cloudinary_connect()
 
